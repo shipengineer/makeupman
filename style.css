@@ -23,6 +23,9 @@ header {
   color: black;
   /* для батона */
 }
+.nav-link:hover {
+  color: red;
+}
 .nav-panel > button {
   background-color: #ffffff;
   cursor: pointer;
@@ -61,10 +64,22 @@ h1 {
   flex-wrap: wrap;
 }
 .start-now-link {
+  /* color */
+  box-shadow: 4px 4px 8px 0 #f25822;
+  color: #ffffff;
+  background-color: #f25822;
   text-decoration: none;
-  justify-content: center;
+  /* position */
   align-items: center;
   display: flex;
+  justify-content: center;
+  /*geometry*/
+  height: 50px;
+  width: 140px;
+  border-radius: 50px;
+  /*text-fonts*/
+  font-family: Gilroy-Bold;
+  font-size: 15px;
 }
 .watch-video {
   background-color: #ffffff;
